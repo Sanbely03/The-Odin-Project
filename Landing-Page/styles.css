@@ -1,0 +1,19 @@
+.body-wrapper{
+    height: 100vh;
+    border: solid blue 3vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    border: solid rgb(117, 117, 249) 3vh;
+    
+
+}
+[class ^="item-"]{
+    border: solid red 2px;
+    flex: 1;
+    
+
+
+}
