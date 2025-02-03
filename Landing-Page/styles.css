@@ -1,19 +1,124 @@
 .body-wrapper{
     height: 100vh;
-    border: solid blue 3vh;
+/*    border: solid blue 1px; */
+    font-style: roboto;
+    justify-content: center;
+    background-color: black;
 }
 .container{
     display: flex;
     flex-direction: column;
-    height: 95vh;
-    border: solid rgb(117, 117, 249) 3vh;
+    height: 100vh;
+  /*  border: solid rgb(117, 117, 249) 2px;  */
+    justify-items: space-between;
+    margin: 5vh;
+    padding: 0%;
+}
+[class ^="item-"]{
+   /* border: solid red 2px; */
+    flex: 1;
+    margin: px;
+    background-color: dark #1F2937;
+} 
+.container-item-01{
+    display: flex;
+    height: 20px;
+    border: solid green 2px;
     
 
 }
-[class ^="item-"]{
-    border: solid red 2px;
+[class ^="Header-side-"]{
+    border: solid yellow 3px;
     flex: 1;
+}
+.container-item-09{
+    display: flex;
+    border: solid yellowgreen 3px;
+    height: 16vh;
+    flex: 1;
+
+}
+[class ^="header-sec-side-"]{
+    display: flex;
+    border: solid rgb(116, 26, 116) 3px;
+    flex: 1;
+}
+[class^="strong-"]{
+    height: 70px;
+    width: 150px;
+    border: solid red 3px;
+}
+.heaaad{
+   /* border: solid rgb(4, 35, 35) 2px; */
+    text-align: center;
+    height: 20px;
+
+
+}
+.content1-item-1000{
+    display: flex;
+   /* border: solid rgb(13, 12, 3) 3px;*/
+    height: 20vh;
+    flex-direction:row;
+    justify-content: center;
+    box-sizing: border-box;
+
+
+}
+[class ^="content-"]{
+    border: solid rgb(30, 27, 227)  3px;
+    width: 65px;
+    height: 65px;
+    margin: 3px;
+    border-radius: 5%;
+
+}
+.item-3{
+    background-color: rgb(220, 220, 225);
+    display: flex;
+    justify-content: center;
+
+}
+#one{
+    width: 500px;
+    height: auto;
+  /*  border: solid #1F2937 3px;*/
+    background-color: rgb(104, 130, 130);
+
+
+}
+.item-4{
+    display: flex;
+    background-color: aliceblue;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+#two{
+    background-color:#1F2937;
+  /*  border: solid #1F2937 3px;*/
+  height: 30px;
+}
+.item-1{
+    background-color: #1F2937;
+}
+.item-2{
+    background-color: aliceblue;
+}
+
+#call-to-action{
+    display: flex;
+    border: solid blueviolet 2px;
+    height: 70px;
+    width: 700px;
+    margin-bottom: 40px;
+    margin-left: 350px;
     
 
+}
+[class ^="note-"]{
+    border: solid burlywood 3px;
+    
 
 }
