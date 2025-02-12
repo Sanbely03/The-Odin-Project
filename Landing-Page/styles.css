@@ -14,8 +14,9 @@
     height: 100vh; 
   /*  border: solid rgb(90, 113, 74) 5px; */
     justify-items:center;
-    margin: 1px;
+    margin: 6px;
   /*  background-color: #586475; */
+  flex-shrink: 100vh;
 
 }
 
@@ -24,6 +25,7 @@
     height: 55px;
   /*  border: solid rgb(10, 213, 10) 8px;*/
     margin: 2px;
+    flex-shrink: 1;
 }
 .container-item-09{
     display: flex;
@@ -42,7 +44,7 @@
     color: #f9faf8;
     flex: 1;
     height: 60%;
-    /*background-color: #1f2937;*/
+    background-color: #1f2937;
 
 }
 .item-2{
@@ -59,12 +61,13 @@
     display:flex;
 }
 .header-sec-side-2{
-    padding-left: 100px ;
+    padding-left: 300px;
 }
 .strong-02{
     padding-left: 50px;
     border-radius: 5px;
-    margin-left: 50px;
+    margin-right: 50px;
+ /*   border: solid #3882f6 4p  x; */
 }
 .container-item-01{
    font-size: 18px;
@@ -89,8 +92,9 @@
     display: flex;
     justify-content: center;
     text-decoration: none;
+    font-size: 18px;
 }
-.Header-side-2 ul {
+.Header-side-2 ul li {
     text-decoration: none;
     display: flex;
     text-indent: 30px;
@@ -98,6 +102,7 @@
  /*   border: solid goldenrod 3px;*/
     width: 250px;
     height: 15px;
+    font-size: 18px;
     
 }
 /*
@@ -114,13 +119,14 @@
 }
 [class ^="Header-side-"]{
     display: flex;
-    border: solid rgb(239, 239, 10) 5px;
+ /*   border: solid rgb(239, 239, 10) 5px;*/
     flex: 1;
-    height: 19px;
+    height: 10px;
 }
 .Header-side-1{
-   /* background-color: rgb(39, 39, 75);*/
+/* background-color: rgb(39, 39, 75);*/
     text-align: end;
+
 }
 .Header-side-2{
  /*   background-color: #bfc4cd;*/
@@ -128,6 +134,7 @@
 
 .hero-02{
    /* background-color: rgb(15, 199, 199);*/
+    font-size: 18px;
 }
 .header-sec-side-1{
     display: flex;
@@ -136,18 +143,19 @@
 }
 .container-item-09{
     display: flex;
-  /*  border: solid rgb(162, 237, 12) 4px; */
-    height: 25vh;
+ /*   border: solid rgb(162, 237, 12) 4px; */
+    height: 27vh;
     flex: 1;
   /*  padding: 1px;*/
+ 
 
 }
 .hero-01{
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 900%;
     color:  #dce1d8; 
         /* background-color: rgb(2, 32, 22);*/
-          font-size: 2px;
+          font-size: 22px;
           font-weight: bold;
           font-family: 'Times New Roman', Times, serif;
       
@@ -167,11 +175,15 @@
   /*  border: #18191b solid 7px; */
     padding-left: 105px;
 }
+img{
+    height: auto;
+    width: 268px;
+}
 
 .header-sec-side-2{
     justify-content: space-between;
-   /* background-color: rgb(13, 13, 38); */
-   /* border: #18191b solid 7px; */
+ /*   background-color: rgb(12, 12, 154); 
+ /*  border: #18191b solid 7px; */
     
     
 }
@@ -206,10 +218,12 @@ font-size: 48px;
     background-color: #f2f3f6;
 
 }
-.heaaad{
+.item-2 .heaaad{
  border: solid rgb(0, 230, 230) 2px; 
     text-align: center;
     height: 20px;
+    font-weight: 900px;
+    font-size: 14px;
 
 
 }
@@ -245,6 +259,9 @@ font-size: 48px;
     background-color: rgb(104, 130, 130);
 
 
+}
+#keek-it-up{
+    border-radius: 5px;
 }
 p{
     border: solid green 3px; 
@@ -292,11 +309,20 @@ p{
 
 }
 h3{
-    border: solid green 1px;
+    border: solid rgb(26, 86, 26) 1px;
     text-align: start;
     padding-left: 10vh;
     
     
+}
+h6 .item-2 .heaaad{
+    border: #1F2937 solid 5px;
+    background-color: #3882f6;
+    height: 50px;
+    width: auto;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
 }
 .note-1{
     line-height: 1vh;
@@ -311,18 +337,18 @@ h3{
 
 }
 
+/*
 
 span{
-/* background-color: #5b6883; */
+ background-color: #5b6883;
     font-size: 23px;
 }
-button{
-    background-color: #a1bbdf;
-    
-}
+
+ */
+
 [class ^="Header-side-"]{
-    border: #1F2937 1vh solid;
-    margin: 2px;
+ /*   border: #1F2937 1vh solid; */
+    margin: 7px;
 
 }
 
@@ -347,4 +373,18 @@ button{
 }
 .Header-side-2{
     display: flex;
+}
+
+.header-sec-side-2{
+    background-color: #1F2937;
+    display: flex;
+}
+button .hero-03 .pond{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
 }
