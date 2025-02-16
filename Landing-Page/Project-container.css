@@ -1,8 +1,10 @@
 
 .Project-container{
+    text-wrap: row wrap;
     height: 100%;
-    border: solid blueviolet 2px;
-    background-color: beige;
+    border: solid rgb(134, 55, 194) 2px;
+    /* background-color: #1e4478; */
+    margin: 3px;
     justify-items: center;
 
 }
