@@ -1,0 +1,29 @@
+.header-main-hero{
+    border: solid violet 3px;
+    width: 80%;
+    height: auto;
+
+}
+.header-child-01{
+    border: solid green 3px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo-side{
+    border: solid burlywood 3px;
+}
+.link-side{
+    border: solid burlywood 3px;
+    ul{
+        li{
+            list-style-type: none;
+            display: inline;
+        }
+    }
+}
+.header-child-02{
+    width: 80%;
+    height: auto;
+    border: solid grey 3px;
+}
