@@ -16,17 +16,37 @@
 .logo-side{
     /* border: solid burlywood 3px; */
 }
+#hero-01 .LS-solution{
+    font-family: tahoma;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: slategray;
+}
 .link-side{
+    text-decoration: none;
     /* border: solid burlywood 3px; */
     font-size: 18px;
     color: #E5E7EB;
+}
     ul{
+        
+        a{
+            text-decoration: none;
+        }
+        
         li{
+          
+            color: #F9FAF8;
             list-style-type: none;
             display: inline;
+        
         }
     }
-}
+    
+        
+    
+
 .header-child-02{
     display: flex;
     width: 80%;
