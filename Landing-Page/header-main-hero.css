@@ -1,5 +1,5 @@
 .header-main-hero{
-    border: solid rgb(2, 244, 27) 3px;
+    /* border: solid rgb(2, 244, 27) 3px; */
     width: 80%;
     height: auto;
 }
@@ -8,16 +8,16 @@
     color: #F9FAF8;
 }
 .header-child-01{
-    border: solid green 3px;
+    /* border: solid green 3px; */
     display: flex;
     justify-content: space-between;
 
 }
 .logo-side{
-    border: solid burlywood 3px;
+    /* border: solid burlywood 3px; */
 }
 .link-side{
-    border: solid burlywood 3px;
+    /* border: solid burlywood 3px; */
     font-size: 18px;
     color: #E5E7EB;
     ul{
@@ -31,7 +31,7 @@
     display: flex;
     width: 80%;
     height: auto;
-    border: solid rgb(232, 7, 7) 3px;
+    /* border: solid rgb(232, 7, 7) 3px; */
 }
 .web-info-aside-left{
     display: flex;
@@ -39,10 +39,10 @@
     height: auto;
     margin: 4px;
     justify-content:start;
-    border: solid rgb(68, 68, 205) 3px;
+    /* border: solid rgb(68, 68, 205) 3px; */
 }
 .strong-01{
-    border: solid rgb(231, 114, 114) 3px;
+    /* border: solid rgb(231, 114, 114) 3px; */
     width: 350px;
     height: auto;
 }
@@ -70,13 +70,13 @@
     height: auto;
     margin: 4px;
     justify-content:end;
-    border: solid darkcyan 3px;
+    /* border: solid darkcyan 3px; */
 
 }
 
 .strong-02{
     justify-content:flex-end; 
-    border: solid rgb(231, 114, 114) 3px;
+    /* border: solid rgb(231, 114, 114) 3px; */
     width: 350px;
     height: auto;
 }

@@ -1,7 +1,7 @@
 .header-info-sec-middle{
     padding: 0%;
     margin: 0%;
-    border: solid palegreen 3px;
+    /* border: solid palegreen 3px; */
     max-width: 90%;
     width: 90%;
     height: auto;
@@ -9,10 +9,10 @@
     /* background-color: bisque; */
 }
 .top-section{
-    border: solid fuchsia 3px;
+    /* border: solid fuchsia 3px; */
     h3{
         background-color: blueviolet;
-        border: solid blue 3px;
+        /* border: solid blue 3px; */
     }
 }
 #what-we-do{
@@ -25,17 +25,17 @@
         display: flex;
         width: 80%;
         height: auto;
-        border: solid brown 3px;
+        /* border: solid brown 3px; */
         justify-content: center;
 
     }
     [class ^= "content-"]{
-        border: solid darkgreen 3px;
+        /* border: solid darkgreen 3px; */
         width: 150px;
         height: 150px;
         margin: 2px;
         border-radius: 10px;
-        margin-bottom: 40px;
+        margin-bottom: 4px;
     }
 [class ^="caption-0"]{
     text-align: center;
@@ -46,6 +46,18 @@
 }
 [class ^="capt-"]{
     justify-items: center;
-    border: solid black 3px;
+    /* border: solid black 3px; */
     margin: 2px;
+}
+[class ^="discription-"]{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+[class ^="quate-0"]{
+    text-align:center;
+    font-size: 20px;
+    padding-left: 50px;
+
+
 }
