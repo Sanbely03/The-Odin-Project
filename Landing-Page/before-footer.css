@@ -1,6 +1,6 @@
 .before-footer{
     justify-items: center;
-    border: solid green 3px;
+    /* border: solid green 3px; */
     max-width: 90%;
     width: 900%;
     height: auto;
@@ -10,7 +10,7 @@
 .qoat-section{
     max-width: 90%;
     width: 80%;
-    border: solid blueviolet 3px;
+    /* border: solid blueviolet 3px; */
     justify-items: center;
 }
 
@@ -20,7 +20,7 @@
         font-size: 36px;
         font-style: italic;
         max-width: 80%;
-        border: solid red 3px;
+        /* border: solid red 3px; */
 
     }
  
@@ -28,7 +28,7 @@
         padding-left: 550px;
         max-width: 80%;
         text-align: end;
-        border: solid orange 3px;
+        /* border: solid orange 3px; */
 
     }
    

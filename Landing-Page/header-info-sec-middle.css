@@ -6,7 +6,7 @@
     width: 90%;
     height: auto;
     justify-items: center;
-    background-color: ;
+    /* background-color: bisque; */
 }
 .top-section{
     border: solid fuchsia 3px;
@@ -14,6 +14,12 @@
         background-color: blueviolet;
         border: solid blue 3px;
     }
+}
+#what-we-do{
+    font-size: 35px;
+    padding: 10px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
     .item-house{
         display: flex;
@@ -31,9 +37,9 @@
         border-radius: 10px;
         margin-bottom: 40px;
     }
-.caption-01{
+[class ^="caption-0"]{
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     color: #666;
 
     
